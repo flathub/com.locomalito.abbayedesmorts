@@ -1,0 +1,39 @@
+From 58d97dc4f16f3c51c2d9413deac8b6e2c4492d78 Mon Sep 17 00:00:00 2001
+From: troido <troido@protonmail.com>
+Date: Tue, 8 Sep 2020 22:18:03 +0200
+Subject: [PATCH] define renderer as extern
+
+---
+ src/base.h | 2 +-
+ src/main.c | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/src/base.h b/src/base.h
+index f04d460..d491ee1 100644
+--- a/src/base.h
++++ b/src/base.h
+@@ -14,7 +14,7 @@
+ 
+ // SDL2 renderer. Needs to be declared here because several different units access to it
+ // directly to draw on it because there's no discrete graphics unit, but it works, so no complains :D
+-SDL_Renderer *renderer;
++extern SDL_Renderer *renderer;
+ 
+ // Default layout to PSX gamepad with USB adapter
+ #define JUMP_JOYBUTTON 2
+diff --git a/src/main.c b/src/main.c
+index 9de8f8f..e533d03 100644
+--- a/src/main.c
++++ b/src/main.c
+@@ -8,7 +8,7 @@
+ 
+  
+ #include "main.h"
+-
++SDL_Renderer *renderer;
+ int main (int argc, char** argv) {
+ 
+ 	// TODO: support arguments for fullscreen, etc.
+-- 
+2.31.1
+
