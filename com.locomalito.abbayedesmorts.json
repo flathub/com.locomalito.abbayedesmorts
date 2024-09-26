@@ -5,49 +5,53 @@
   "sdk": "org.freedesktop.Sdk",
   "command": "abbayev2",
   "finish-args": [
-      "--device=dri",
-      "--share=ipc",
-      "--socket=pulseaudio",
-      "--socket=wayland",
-      "--socket=x11"
+    "--device=dri",
+    "--share=ipc",
+    "--socket=pulseaudio",
+    "--socket=wayland",
+    "--socket=fallback-x11"
   ],
   "modules": [
-      {
-          "name": "abbayedesmorts",
-          "buildsystem": "simple",
-          "build-commands": [
-              "make PREFIX=/app",
-              "make install PREFIX=/app",
-              "install -Dm644 com.locomalito.abbayedesmorts.desktop /app/share/applications/com.locomalito.abbayedesmorts.desktop",
-              "install -Dm644 com.locomalito.abbayedesmorts.metainfo.xml /app/share/metainfo/com.locomalito.abbayedesmorts.metainfo.xml",
-              "install -Dm644 /app/share/pixmaps/abbaye.png /app/share/icons/hicolor/48x48/apps/com.locomalito.abbayedesmorts.png"
-          ],
-          "post-install": [
-              "install -Dm0644 abbaye.svg ${FLATPAK_DEST}/share/icons/hicolor/scalable/apps/${FLATPAK_ID}.svg"
-          ],
-          "sources": [
-              {
-                  "type": "git",
-                  "url": "https://github.com/nevat/abbayedesmorts-gpl.git",
-                  "tag": "5b0917bf91a545b127b42a689aabf964b9787dd2"
-              },
-              {
-                  "type": "patch",
-                  "path": "gcc10-fix.patch"
-              },
-              {
-                  "type": "file",
-                  "path": "com.locomalito.abbayedesmorts.desktop"
-              },
-              {
-                  "type": "file",
-                  "path": "com.locomalito.abbayedesmorts.metainfo.xml"
-              },
-              {
-                  "type": "file",
-                  "path": "abbaye.svg"
-              }
-          ]
-      }
+    {
+      "name": "abbayedesmorts",
+      "buildsystem": "simple",
+      "build-commands": [
+        "make PREFIX=/app",
+        "make install PREFIX=/app",
+        "install -Dm644 com.locomalito.abbayedesmorts.desktop /app/share/applications/com.locomalito.abbayedesmorts.desktop",
+        "install -Dm644 com.locomalito.abbayedesmorts.metainfo.xml /app/share/metainfo/com.locomalito.abbayedesmorts.metainfo.xml",
+        "install -Dm644 /app/share/pixmaps/abbaye.png /app/share/icons/hicolor/48x48/apps/com.locomalito.abbayedesmorts.png",
+        "install -Dm644 /app/share/pixmaps/abbaye64.png /app/share/icons/hicolor/64x64/apps/com.locomalito.abbayedesmorts.png",
+        "install -Dm644 /app/share/pixmaps/abbaye128.png /app/share/icons/hicolor/128x128/apps/com.locomalito.abbayedesmorts.png"
+      ],
+      "post-install": [
+        "install -Dm0644 abbaye.svg ${FLATPAK_DEST}/share/icons/hicolor/scalable/apps/${FLATPAK_ID}.svg"
+      ],
+      "sources": [
+        {
+          "type": "git",
+          "url": "https://github.com/nevat/abbayedesmorts-gpl.git",
+          "tag": "v2.0.4",
+          "commit": "f1b70474fbc5f343e2196d1f85a79991a4a313d0",
+          "x-checker-data:": {
+            "is-main-source": "true",
+            "type": "git",
+            "tag-pattern": "^v([\\d.]+)$"
+          }
+        },
+        {
+          "type": "file",
+          "path": "com.locomalito.abbayedesmorts.desktop"
+        },
+        {
+          "type": "file",
+          "path": "com.locomalito.abbayedesmorts.metainfo.xml"
+        },
+        {
+          "type": "file",
+          "path": "abbaye.svg"
+        }
+      ]
+    }
   ]
 }
