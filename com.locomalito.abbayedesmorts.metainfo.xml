@@ -30,42 +30,37 @@
   <screenshots>
       <screenshot type="default">
           <image>
-              https://www.locomalito.com/images/screenshots/abbaye_des_morts_01.png
-          </image>
-      </screenshot>
-      <screenshot>
-          <video >
-              https://gitlab.com/Rampoina/librevideos/raw/master/abbaye.webm
-          </video>
-      </screenshot>
-      <screenshot>
-          <image>
-              https://www.locomalito.com/images/screenshots/abbaye_des_morts_02.png
+              https://locomalito.com/images/screenshots/abbaye-des-morts-01.png
           </image>
       </screenshot>
       <screenshot>
           <image>
-              https://www.locomalito.com/images/screenshots/abbaye_des_morts_03.png
+              https://locomalito.com/images/screenshots/abbaye-des-morts-02.png
           </image>
       </screenshot>
       <screenshot>
           <image>
-              https://www.locomalito.com/images/screenshots/abbaye_des_morts_05.png
+              https://locomalito.com/images/screenshots/abbaye-des-morts-03.png
           </image>
       </screenshot>
       <screenshot>
           <image>
-              https://www.locomalito.com/images/screenshots/abbaye_des_morts_06.png
+              https://locomalito.com/images/screenshots/abbaye-des-morts-05.png
           </image>
       </screenshot>
       <screenshot>
           <image>
-              https://www.locomalito.com/images/screenshots/abbaye_des_morts_07.png
+              https://locomalito.com/images/screenshots/abbaye-des-morts-06.png
           </image>
       </screenshot>
       <screenshot>
           <image>
-              https://www.locomalito.com/images/screenshots/abbaye_des_morts_08.png
+              https://locomalito.com/images/screenshots/abbaye-des-morts-07.png
+          </image>
+      </screenshot>
+      <screenshot>
+          <image>
+              https://locomalito.com/images/screenshots/abbaye-des-morts-08.png
           </image>
       </screenshot>
   </screenshots>
