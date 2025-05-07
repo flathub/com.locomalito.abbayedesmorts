@@ -7,66 +7,61 @@
   <name>L'Abbaye des morts</name>
   <summary>An obsolete video game for a dark passage of history</summary>
   <description>
-      <p>
-          In the 13th century, the Cathars, clerics who preached about the poverty of Christ and defended life without material aspirations, were treated as heretics by the Catholic Church and expelled out of the Languedoc region in France. One of them, called Jean Raymond, found an old church in which to hide from crusaders, not knowing that beneath its ruins lay buried an ancient evil.
-      </p>
-      <p>
-          Faith will be your only weapon in this platformer styled like a ZX Spectrum game. Black backgrounds, 1 color sprites and 1 bit sounds are a proper fit for a raw story. The lack of details turn on the player's imagination, creating a unique experience for each player.
-      </p>
-      <ul> Features
+    <p>In the 13th century, the Cathars, clerics who preached about the poverty of Christ and defended life without material aspirations, were treated as heretics by the Catholic Church and expelled out of the Languedoc region in France. One of them, called Jean Raymond, found an old church in which to hide from crusaders, not knowing that beneath its ruins lay buried an ancient evil.</p>
+    <p>Faith will be your only weapon in this platformer styled like a ZX Spectrum game. Black backgrounds, 1 color sprites and 1 bit sounds are a proper fit for a raw story. The lack of details turn on the player's imagination, creating a unique experience for each player.</p>
+    <p><em>Features</em></p>
+    <ul>
       <li>Look and feel of a ZX Spectrum game.</li>
       <li>23 screens to explore.</li>
       <li>Riddles and hints to find items.</li>
       <li>Around 30 minutes of game length (once fully mastered).</li>
-  </ul>
+    </ul>
   </description>
   <developer_name>LocoMalito</developer_name>
   <url type="homepage">https://www.locomalito.com</url>
-  <url type="help">https://github.com/nevat/abbayedesmorts-gpl/blob/master/ReadMe.md</url>
+  <url type="bugtracker">https://github.com/nevat/abbayedesmorts-gpl/issues/</url>
+  <url type="vcs-browser">https://github.com/nevat/abbayedesmorts-gpl/</url>
   <launchable type="desktop-id">com.locomalito.abbayedesmorts.desktop</launchable>
   <provides>
-      <binary>abbayev2</binary>
+    <binary>abbayev2</binary>
   </provides>
   <screenshots>
-      <screenshot type="default">
-          <image>
-              https://locomalito.com/images/screenshots/abbaye-des-morts-01.png
-          </image>
-      </screenshot>
-      <screenshot>
-          <image>
-              https://locomalito.com/images/screenshots/abbaye-des-morts-02.png
-          </image>
-      </screenshot>
-      <screenshot>
-          <image>
-              https://locomalito.com/images/screenshots/abbaye-des-morts-03.png
-          </image>
-      </screenshot>
-      <screenshot>
-          <image>
-              https://locomalito.com/images/screenshots/abbaye-des-morts-05.png
-          </image>
-      </screenshot>
-      <screenshot>
-          <image>
-              https://locomalito.com/images/screenshots/abbaye-des-morts-06.png
-          </image>
-      </screenshot>
-      <screenshot>
-          <image>
-              https://locomalito.com/images/screenshots/abbaye-des-morts-07.png
-          </image>
-      </screenshot>
-      <screenshot>
-          <image>
-              https://locomalito.com/images/screenshots/abbaye-des-morts-08.png
-          </image>
-      </screenshot>
+    <screenshot type="default">
+        <image>https://locomalito.com/images/screenshots/abbaye-des-morts-01.png</image>
+        <caption>Title screen</caption>
+    </screenshot>
+    <screenshot>
+        <image>https://locomalito.com/images/screenshots/abbaye-des-morts-02.png</image>
+        <caption>Info screen</caption>
+    </screenshot>
+    <screenshot>
+        <image>https://locomalito.com/images/screenshots/abbaye-des-morts-03.png</image>
+        <caption>Ingame screen 1</caption>
+    </screenshot>
+    <screenshot>
+        <image>https://locomalito.com/images/screenshots/abbaye-des-morts-04.png</image>
+        <caption>Ingame screen 2</caption>
+    </screenshot>
+    <screenshot>
+        <image>https://locomalito.com/images/screenshots/abbaye-des-morts-05.png</image>
+        <caption>Ingame screen 3</caption>
+    </screenshot>
+    <screenshot>
+        <image>https://locomalito.com/images/screenshots/abbaye-des-morts-06.png</image>
+        <caption>First screen Message</caption>
+    </screenshot>
+    <screenshot>
+        <image>https://locomalito.com/images/screenshots/abbaye-des-morts-07.png</image>
+        <caption>Ingame screen 4</caption>
+    </screenshot>
+    <screenshot>
+        <image>https://locomalito.com/images/screenshots/abbaye-des-morts-08.png</image>
+        <caption>Ingame screen 5</caption>
+    </screenshot>
   </screenshots>
   <releases>
-      <release version="2.0.4" date="2024-09-23" />
-      <release version="2.0.2" date="2023-10-24" />
-      <release version="2.0.1" date="2016-09-23" />
+    <release version="2.0.4" date="2024-09-23" />
+    <release version="2.0.2" date="2023-10-24" />
+    <release version="2.0.1" date="2016-09-23" />
   </releases>
 </component>
