@@ -3,12 +3,19 @@
   <id>com.locomalito.abbayedesmorts</id>
   <metadata_license>CC-BY-3.0</metadata_license>
   <project_license>GPL-3.0</project_license>
-  <content_rating type="oars-1.0" />
   <name>L'Abbaye des morts</name>
   <summary>An obsolete video game for a dark passage of history</summary>
   <description>
-    <p>In the 13th century, the Cathars, clerics who preached about the poverty of Christ and defended life without material aspirations, were treated as heretics by the Catholic Church and expelled out of the Languedoc region in France. One of them, called Jean Raymond, found an old church in which to hide from crusaders, not knowing that beneath its ruins lay buried an ancient evil.</p>
-    <p>Faith will be your only weapon in this platformer styled like a ZX Spectrum game. Black backgrounds, 1 color sprites and 1 bit sounds are a proper fit for a raw story. The lack of details turn on the player's imagination, creating a unique experience for each player.</p>
+    <p>In the 13th century, the Cathars, clerics who preached about the poverty
+      of Christ and defended life without material aspirations, were treated as
+      heretics by the Catholic Church and expelled out of the Languedoc region
+      in France. One of them, called Jean Raymond, found an old church in which
+      to hide from crusaders, not knowing that beneath its ruins lay buried an
+      ancient evil.</p>
+    <p>Faith will be your only weapon in this platformer styled like a ZX Spectrum
+      game. Black backgrounds, 1 color sprites and 1 bit sounds are a proper fit for
+      a raw story. The lack of details turn on the player's imagination, creating
+      a unique experience for each player.</p>
     <p><em>Features</em></p>
     <ul>
       <li>Look and feel of a ZX Spectrum game.</li>
@@ -17,11 +24,18 @@
       <li>Around 30 minutes of game length (once fully mastered).</li>
     </ul>
   </description>
-  <developer_name>LocoMalito</developer_name>
-  <url type="homepage">https://www.locomalito.com</url>
+  <developer id="com.locomalito">
+    <name>LocoMalito</name>
+  </developer>
+  <url type="homepage">https://locomalito.com/games/abbaye-des-morts</url>
   <url type="bugtracker">https://github.com/nevat/abbayedesmorts-gpl/issues/</url>
   <url type="vcs-browser">https://github.com/nevat/abbayedesmorts-gpl/</url>
+  <url type="donation">https://www.paypal.com/donate/?hosted_button_id=XWLZ4B8WRU8BG</url>
   <launchable type="desktop-id">com.locomalito.abbayedesmorts.desktop</launchable>
+  <content_rating type="oars-1.1">
+    <content_attribute id="violence-cartoon">intense</content_attribute>
+    <content_attribute id="violence-fantasy">intense</content_attribute>
+  </content_rating>
   <provides>
     <binary>abbayev2</binary>
   </provides>
