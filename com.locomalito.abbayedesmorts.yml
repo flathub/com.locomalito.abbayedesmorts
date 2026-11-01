@@ -16,6 +16,11 @@ modules:
   - shared-modules/SDL2/SDL2_mixer.json
   - name: abbayedesmorts
     buildsystem: simple
+    build-options:
+      # SDL2_image installs its header under /app/include/SDL2, but abbayedesmorts
+      # includes it bare (<SDL_image.h>); sdl2-config only points at the runtime's
+      # /usr/include/SDL2, so add the app one explicitly.
+      cflags: -I/app/include/SDL2
     build-commands:
       - make PREFIX=${FLATPAK_DEST}
       - make install PREFIX=${FLATPAK_DEST}
@@ -27,12 +32,12 @@ modules:
     sources:
       - type: git
         url: https://github.com/nevat/abbayedesmorts-gpl.git
-        tag: v2.0.4
-        commit: f1b70474fbc5f343e2196d1f85a79991a4a313d0
+        tag: v2.0.5
+        commit: 22fabef3d5abb8d84867cf9ae5b82d4795da03f6
         x-checker-data:
           is-main-source: true
           type: git
-          tag-pattern: ^v([\\d.]+)$
+          tag-pattern: ^v([\d.]+)$
       - type: file
         path: abbaye.svg
       - type: file
