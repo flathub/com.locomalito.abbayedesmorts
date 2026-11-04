@@ -32,7 +32,7 @@ modules:
         x-checker-data:
           is-main-source: true
           type: git
-          tag-pattern: ^v([\\d.]+)$
+          tag-pattern: ^v([\d.]+)$
       - type: file
         path: abbaye.svg
       - type: file
