@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
   <id>com.locomalito.abbayedesmorts</id>
   <metadata_license>CC-BY-3.0</metadata_license>
@@ -74,9 +74,10 @@
     </screenshot>
   </screenshots>
   <releases>
-    <release version="2.0.4" date="2024-09-23" />
-    <release version="2.0.2" date="2023-10-24" />
-    <release version="2.0.1" date="2016-09-23" />
+    <release version="2.0.5" date="2026-11-01"/>
+    <release version="2.0.4" date="2024-09-23"/>
+    <release version="2.0.2" date="2023-10-24"/>
+    <release version="2.0.1" date="2016-09-23"/>
   </releases>
   <keywords>
     <keyword>platformer</keyword>
